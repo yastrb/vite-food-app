@@ -7,7 +7,7 @@
 //       <div className=" relative container">
 //         <div>
 //           <img src={logo} alt="logo" />
-          
+
 //         </div>
 //       </div>
 //     </header>
@@ -18,88 +18,36 @@
 
 
 import React from "react";
+import Nav from "./Nav";
 import {
   Navbar,
-  Collapse,
-  Typography,
   IconButton,
+  MobileNav,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
- 
-function NavList() {
-  return (
-    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium"
-      >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Pages
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium"
-      >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Account
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium"
-      >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Blocks
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium"
-      >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Docs
-        </a>
-      </Typography>
-    </ul>
-  );
-}
- 
-export function Header() {
-  const [openNav, setOpenNav] = React.useState(false);
- 
-  const handleWindowResize = () =>
-    window.innerWidth >= 960 && setOpenNav(false);
- 
-  React.useEffect(() => {
-    window.addEventListener("resize", handleWindowResize);
- 
-    return () => {
-      window.removeEventListener("resize", handleWindowResize);
-    };
+import logo from "./../../assets/images/logo.png"
+import { useEffect, useState } from "react";
+
+
+
+const Header = () => {
+  const [openNav, setOpenNav] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      () => window.innerWidth >= 960 && setOpenNav(false),
+    );
   }, []);
- 
+
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-6 py-3">
+    <Navbar className=" navbarch mx-auto max-w-screen-xl px-6 py-3">
       <div className="flex items-center justify-between text-blue-gray-900">
-        <Typography
-          as="a"
-          href="#"
-          variant="h6"
-          className="mr-4 cursor-pointer py-1.5"
-        >
-          Material Tailwind
-        </Typography>
+        <div>
+          <img src={logo} alt="logo" />
+        </div>
         <div className="hidden lg:block">
-          <NavList />
+          <Nav />
         </div>
         <IconButton
           variant="text"
@@ -114,9 +62,14 @@ export function Header() {
           )}
         </IconButton>
       </div>
-      <Collapse open={openNav}>
-        <NavList />
-      </Collapse>
+      <MobileNav open={openNav}>
+        <div className="container mx-auto">
+          <Nav/>
+          <div className="flex items-center gap-x-1">
+          </div>
+        </div>
+      </MobileNav>
     </Navbar>
   );
 }
+export default Header
