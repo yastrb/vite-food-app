@@ -41,13 +41,16 @@ const Header = () => {
   }, []);
 
   return (
-    <Navbar className=" navbarch mx-auto max-w-screen-xl px-6 py-3">
+    <Navbar className=" mx-auto max-w-screen-xl py-8 px-4">
       <div className="flex items-center justify-between text-blue-gray-900">
         <div>
           <img src={logo} alt="logo" />
         </div>
         <div className="hidden lg:block">
           <Nav />
+        </div>
+        <div>
+          <input type="text" placeholder="search" />
         </div>
         <IconButton
           variant="text"
@@ -64,11 +67,12 @@ const Header = () => {
       </div>
       <MobileNav open={openNav}>
         <div className="container mx-auto">
-          <Nav/>
+          <Nav />
           <div className="flex items-center gap-x-1">
           </div>
         </div>
       </MobileNav>
+
     </Navbar>
   );
 }
