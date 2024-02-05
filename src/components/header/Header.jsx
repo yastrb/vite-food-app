@@ -42,7 +42,7 @@ const Header = () => {
   }, []);
 
   return (
-    <Navbar className=" mx-auto max-w-screen-xl py-8 px-4">
+    <Navbar className=" mx-auto max-w-screen-xl py-8 px-4 bg-transparent">
       <div className="flex items-center justify-between text-blue-gray-900">
         <div>
           <img src={logo} alt="logo" />
