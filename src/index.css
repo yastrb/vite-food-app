@@ -4,3 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #faf7f2;
+    color: #1e1d23;
+  }
+
+  @layer components {
+    .icon {
+        @apply absolute top-0 right-[-6px] h-6 w-6 bg-orange rounded-full text-[#fff] text-center;
+    }
+  }
+
+

@@ -10,6 +10,9 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         satisfy:['Satisfy', 'cursive'],
       },
+      colors: {
+        'orange': '#ff8e28',
+      }
     },
   },
   plugins: [],
