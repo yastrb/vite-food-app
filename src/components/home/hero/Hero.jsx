@@ -1,5 +1,9 @@
 ﻿import React from 'react'
 import Button from '../Button'
+import HeroImage from './HeroImage'
+import heroImage from '../../../assets/images/hero.png'
+import HeroDetails from './HeroDetails'
+import Socials from './Socials'
 
 const Hero = () => {
   return (
@@ -11,14 +15,14 @@ const Hero = () => {
                     <h1 className=' text-7xl font-black'>ARE YOU HUNGRY?</h1>
                     <p className=' text-gray text-base'>As well known and we are very busy all days advice you. advice you to call us of before arriving.</p>
                     <div className=' grid'>
-                        <Button color="orange" label="learn more"/>
+                        <Button color="orange"  label="learn more"/>
                         <Button translate='translate-x-6' color="green" label="see our menu"/>
                     </div>
                 </div>
-                <div>image</div>
-                <div>information</div>
+                <HeroImage src={heroImage} alt={"image of a main dish"}/>
+                <HeroDetails/>
             </div>
-            <div>socials</div>
+            <Socials/>
         </div>
     </section>
   )
