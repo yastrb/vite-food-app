@@ -1,8 +1,11 @@
 ﻿import React from 'react'
+import MenuSection from './menu/menu'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <MenuSection/>
+    </div>
   )
 }
 
