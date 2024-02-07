@@ -13,6 +13,9 @@ body {
     .icon {
         @apply absolute top-0 right-[-6px] h-6 w-6 bg-orange rounded-full text-[#fff] text-center;
     }
+    .title {
+      @apply font-satisfy text-orange text-2xl font-normal;
+    }
   }
 
 
