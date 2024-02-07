@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className=''>
         <div className=' container'>
-            <div className=' grid grid-cols-3'>
+            <div className=' grid grid-cols-3 mb-10'>
                 <div className=' grid gap-5'>
                     <h2 className=' font-satisfy text-orange text-2xl'>Medium 2-topping Burger</h2>
                     <h1 className=' text-7xl font-black'>ARE YOU HUNGRY?</h1>
