@@ -1,3 +1,4 @@
+// import { FaDrumstickBite } from "react-icons/fa";
  const data = [
   {
     text: "home",
@@ -25,71 +26,37 @@
   },
 ];
 export default data;
-// export const hero = [
-//   {
-//     id: 1,
-//     title: "GREAT LOCATION",
-//     desc: "Rorem ipsum dolor sit amet, etur advoluptatem voluptatem",
-//   },
-//   {
-//     id: 2,
-//     title: "NATURE FIRST",
-//     desc: "Rorem ipsum dolor sit amet, etur advoluptatem voluptatem",
-//   },
-//   {
-//     id: 3,
-//     title: "HEALTHY FOOD",
-//     desc: "Rorem ipsum dolor sit amet, etur advoluptatem voluptatem",
-//   },
-// ];
-// export const socialIcon = [
-//   {
-//     icon: <i className="fab fa-facebook-f"></i>,
-//     name: "facebook",
-//   },
-//   {
-//     icon: <i className="fab fa-twitter"></i>,
-//     name: "twitter",
-//   },
-//   {
-//     icon: <i className="fab fa-youtube"></i>,
-//     name: "youtube",
-//   },
-//   {
-//     icon: <i className="fab fa-instagram"></i>,
-//     name: "instagram",
-//   },
-// ];
-// export const menu = [
-//   {
-//     id: 1,
-//     icon: <i className="fa fa-drumstick-bite"></i>,
-//     title: "Chicken",
-//     desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
-//     cover: "../images/menu/menu1.png",
-//   },
-//   {
-//     id: 2,
-//     icon: <i class="fa fa-pizza-slice"></i>,
-//     title: "Pizza and drink",
-//     desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
-//     cover: "../images/menu/menu2.png",
-//   },
-//   {
-//     id: 3,
-//     icon: <i class="fa fa-burger"></i>,
-//     title: "box meals",
-//     desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
-//     cover: "../images/menu/menu3.png",
-//   },
-//   {
-//     id: 4,
-//     icon: <i class="fa fa-boxes-packing"></i>,
-//     title: "combo pack",
-//     desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
-//     cover: "../images/menu/menu4.png",
-//   },
-// ];
+
+export const menu = [
+  {
+    id: 1,
+    icon: <i className="fa fa-drumstick-bite"></i>,
+    title: "Chicken",
+    desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
+    cover: "../assets/images/menu/menu1.png",
+  },
+  {
+    id: 2,
+    icon: <i class="fa fa-pizza-slice"></i>,
+    title: "Pizza and drink",
+    desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
+    cover: "../images/menu/menu2.png",
+  },
+  {
+    id: 3,
+    // icon: <FaDrumstickBite />,
+    title: "box meals",
+    desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
+    cover: "../images/menu/menu3.png",
+  },
+  {
+    id: 4,
+    icon: <i class="fa fa-boxes-packing"></i>,
+    title: "combo pack",
+    desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
+    cover: "../images/menu/menu4.png",
+  },
+];
 // export const dishes = [
 //   {
 //     id: 1,

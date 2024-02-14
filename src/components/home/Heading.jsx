@@ -2,7 +2,7 @@
 
 const Heading = (props) => {
   return (
-    <div className='py-8'>
+    <div className='py-8 text-center'>
         <h3 className=' title'>{props.title}</h3>
         <h4 className=' subtitle'>{props.subtitle}</h4>
     </div>

@@ -3,7 +3,7 @@ import MenuSection from './menu/Menu'
 
 const Home = () => {
   return (
-    <div className=' container px-4'>
+    <div className='mx-auto px-4'>
       <MenuSection/>
     </div>
   )
