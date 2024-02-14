@@ -1,9 +1,9 @@
 ﻿import React from 'react'
-import MenuSection from './menu/menu'
+import MenuSection from './menu/Menu'
 
 const Home = () => {
   return (
-    <div>
+    <div className=' container px-4'>
       <MenuSection/>
     </div>
   )
