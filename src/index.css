@@ -16,7 +16,9 @@ body {
     .title {
       @apply font-satisfy text-orange text-2xl font-normal;
     }
-    
+    .subtitle {
+      @apply text-5xl font-extrabold uppercase;
+    }
   }
 
 
