@@ -16,6 +16,7 @@ body {
     .title {
       @apply font-satisfy text-orange text-2xl font-normal;
     }
+    
   }
 
 
