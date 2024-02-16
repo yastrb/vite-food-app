@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import { hero } from "../../../data/Data.js"
+import { hero } from "../../../data/Data.jsx"
 
 const HeroDetails = () => {
     return (
