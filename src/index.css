@@ -19,6 +19,9 @@ body {
     .subtitle {
       @apply  font-extrabold text-5xl uppercase;
     }
+    .details::after {
+      @apply bg-[#e0ddd7] content-[""] w-[1px] h-[340px] top-[10%] bottom-0 absolute right-[25px] -z-10;
+    }
   }
 
 

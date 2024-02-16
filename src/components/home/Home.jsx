@@ -1,11 +1,13 @@
 ﻿import React from 'react'
 import MenuSection from './menu/Menu'
+import Hero from './hero/Hero'
 
 const Home = () => {
   return (
-    <div className='mx-auto px-4'>
+    <main className=' mx-auto px-4 mt-[80px]'>
+      <Hero/>
       <MenuSection/>
-    </div>
+    </main>
   )
 }
 
