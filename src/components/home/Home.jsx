@@ -1,8 +1,11 @@
 ﻿import React from 'react'
+import Hero from './hero/Hero'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <main className=' px-4 mt-[80px]'>
+      <Hero/>
+    </main>
   )
 }
 

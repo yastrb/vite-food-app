@@ -25,41 +25,24 @@
   },
 ];
 export default data;
-// export const hero = [
-//   {
-//     id: 1,
-//     title: "GREAT LOCATION",
-//     desc: "Rorem ipsum dolor sit amet, etur advoluptatem voluptatem",
-//   },
-//   {
-//     id: 2,
-//     title: "NATURE FIRST",
-//     desc: "Rorem ipsum dolor sit amet, etur advoluptatem voluptatem",
-//   },
-//   {
-//     id: 3,
-//     title: "HEALTHY FOOD",
-//     desc: "Rorem ipsum dolor sit amet, etur advoluptatem voluptatem",
-//   },
-// ];
-// export const socialIcon = [
-//   {
-//     icon: <i className="fab fa-facebook-f"></i>,
-//     name: "facebook",
-//   },
-//   {
-//     icon: <i className="fab fa-twitter"></i>,
-//     name: "twitter",
-//   },
-//   {
-//     icon: <i className="fab fa-youtube"></i>,
-//     name: "youtube",
-//   },
-//   {
-//     icon: <i className="fab fa-instagram"></i>,
-//     name: "instagram",
-//   },
-// ];
+export const hero = [
+  {
+    id: 1,
+    title: "GREAT LOCATION",
+    desc: "Rorem ipsum dolor sit amet, etur advoluptatem voluptatem",
+  },
+  {
+    id: 2,
+    title: "NATURE FIRST",
+    desc: "Rorem ipsum dolor sit amet, etur advoluptatem voluptatem",
+  },
+  {
+    id: 3,
+    title: "HEALTHY FOOD",
+    desc: "Rorem ipsum dolor sit amet, etur advoluptatem voluptatem",
+  },
+];
+
 // export const menu = [
 //   {
 //     id: 1,
