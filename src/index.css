@@ -14,7 +14,10 @@ body {
         @apply absolute top-0 right-[-6px] h-6 w-6 bg-orange rounded-full text-[#fff] text-center;
     }
     .details::after {
-      @apply bg-[#e0ddd7] content-[""] w-[1px] h-[340px] top-[10%] bottom-0 absolute right-[25px] -z-10;
+      @apply bg-[#e0ddd7] content-[""] w-[1px] h-[340px] top-[10%] bottom-0 absolute right-[25px] -z-10;}
+      
+    .title {
+      @apply font-satisfy text-orange text-2xl font-normal;
     }
   }
 
