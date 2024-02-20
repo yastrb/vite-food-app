@@ -1,12 +1,12 @@
 ﻿import React from 'react'
 import Hero from './hero/Hero'
-import Popular from './popular/Popular'
+import Discount from './discount/discount'
 
 const Home = () => {
   return (
     <main className='mx-auto px-4 mt-[80px]'>
       <Hero/>
-      <Popular/>
+      <Discount/>
     </main>
   )
 }
