@@ -1,3 +1,4 @@
+
  const data = [
   {
     text: "home",
@@ -25,6 +26,7 @@
   },
 ];
 export default data;
+
 export const hero = [
   {
     id: 1,
@@ -43,36 +45,38 @@ export const hero = [
   },
 ];
 
-// export const menu = [
-//   {
-//     id: 1,
-//     icon: <i className="fa fa-drumstick-bite"></i>,
-//     title: "Chicken",
-//     desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
-//     cover: "../images/menu/menu1.png",
-//   },
-//   {
-//     id: 2,
-//     icon: <i class="fa fa-pizza-slice"></i>,
-//     title: "Pizza and drink",
-//     desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
-//     cover: "../images/menu/menu2.png",
-//   },
-//   {
-//     id: 3,
-//     icon: <i class="fa fa-burger"></i>,
-//     title: "box meals",
-//     desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
-//     cover: "../images/menu/menu3.png",
-//   },
-//   {
-//     id: 4,
-//     icon: <i class="fa fa-boxes-packing"></i>,
-//     title: "combo pack",
-//     desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
-//     cover: "../images/menu/menu4.png",
-//   },
-// ];
+export const menu = [
+  {
+    id: 1,
+    icon: <i className="fa fa-drumstick-bite"></i>,
+    title: "Chicken",
+    desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
+    cover: "/assets/menu/menu1.png",
+  },
+  {
+    id: 2,
+    icon: <i class="fa fa-pizza-slice"></i>,
+    title: "Pizza and drink",
+    desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
+    cover: "/assets/menu/menu2.png",
+  },
+  {
+    id: 3,
+    icon: <i class="fa fa-burger"></i>,
+    title: "box meals",
+    desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
+    cover: "/assets/menu/menu3.png",
+  },
+  {
+    id: 4,
+    icon: <i class="fa fa-boxes-packing"></i>,
+    title: "combo pack",
+    desc: "Rorem ipsum advolu ptateme  volupta tem Rorem ipsuey",
+    cover: "/assets/menu/menu4.png",
+  },
+];
+
+
 export const dishes = [
   {
     id: 1,
