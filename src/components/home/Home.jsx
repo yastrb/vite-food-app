@@ -1,13 +1,5 @@
-﻿import React from 'react'
-<<<<<<< HEAD
+import React from 'react'
 import Discount from './discount/discount'
-
-const Home = () => {
-  return (
-    <main className='mx-auto mt-[80px]'>
-
-      <Discount/>
-=======
 import Offer from './offer/Offer'
 import MenuSection from './menu/Menu'
 import Hero from './hero/Hero'
@@ -20,7 +12,7 @@ const Home = () => {
       <MenuSection />
       <Offer />
       <Popular />
->>>>>>> 65d6d1314558f7555354125899501c95879578b4
+      <Discount/>
     </main>
   )
 }
